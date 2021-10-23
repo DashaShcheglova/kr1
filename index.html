@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <title>Проект Щегловой Дарьи</title>
+    </head>
+    <body background="fon.jpg" bgcolor="dddddd" >
+        
+        <div class="shapka">  
+                <nav> <a href="#Инфа"> информация о кошках с собаками</a>|<a href="#Таблица">сравнительная таблица</a>|<a href="#ОбСвязь"> форма обратной связи </a> </nav>   
+                <hr/>
+        </div>
+        <h1 class="figna"> .</h1>
+        <h1 class="h2">Сравнение кошек и собак</h1>
+        <br>
+        <main class="main">
+              <h2 class="h2" id="Инфа">Информация о кошках с собаками</h2>  
+            <br class="main">
+                У каждого человека своё любимое животное. Но коки и собаки, на мой взгляд, являются самыми популярными питомцами.
+                Конечно, как кошки, так и собаки бывают разные, так что сравнивать их сложно, всё может быть по-разному
+                в зависимости от породы, характера животного, а также и от его хозяина. Так что моя сравнительная таблица лишь приблизительный
+                вариант плюсов и минусов каждой стороны. Мне лично нравятся как кошки, так и собаки.
+                <div class="figna"><br>.</div>
+            <h3 class="h2" id="Таблица">Небольшая сравнительная таблица:</h3> 
+              <div class="figna"><br>.</div>
+              <table class="table" border="1">
+                <tr>
+                    <td> <b> кошки </b> </td>
+                    <td> <b> собаки </b> </td> 
+                </tr>
+                <tr>
+                    <td> не нужно выгуливать </td>
+                    <td> нужно гулять каждый день </td> 
+                </tr>
+                <tr>
+                    <td> иногда может поиграть </td>
+                    <td> всегда может поиграть </td> 
+                </tr>
+                <tr>
+                    <td> друг человека, когда просит еду </td>
+                    <td> настоящий друг человека </td> 
+                </tr>
+                <tr>
+                    <td> милые мурчалки </td>
+                    <td> преданные друзья </td> 
+                </tr>
+                <tr>
+                    <td> легче ухаживать </td>
+                    <td> труднее ухаживать </td> 
+                </tr>
+                <tr>
+                    <td> <img src="kot.jpg" alt="здесь фото кота" width=100% height=100%> </td>
+                    <td> <img src="sobaka.jpg" alt="здесь фото собаки" width=100% height=100%> </td> 
+                </tr>
+            </table>
+        </main>
+            <h2 class="div" id="ОбСвязь"> Форма обратной связи: </h2>
+            <br>
+        <div class="div">
+            <li>Со мной можно связаться через вк:
+                <br> <a target="_blank" href="https://vk.com/d.scheglova2014">Вконтакте</a>
+            </li> <br>
+            <h3>Оценить:</h3>
+            <form action="/" class="soobsheniya">
+                <label for="name">Ваше имя: </label>
+                <input type="text" id="name" placeholder="Введите имя">
+                <br>
+                <label for="email">Ваш email: </label>
+                <input type="text" id="email" placeholder="Введите email">
+                <br>
+                <label for="nomer">Ваша оценка: </label>
+                <input type="number" id="nomer" placeholder="оцение от 1 до 10">
+                <br>
+                <label for="vibor">Выберите кто вам нравится больше:</label>
+                <table>
+                  <td bgcolor="00ff88">
+                    <input type="radio" name="vibor" placeholder="10">кошки;
+                    <input type="radio" name="vibor" placeholder="10">собаки;
+                    <input type="radio" name="vibor" placeholder="10">и кошки, и собаки;
+                    <input type="radio" name="vibor" placeholder="10">ни кошки, ни собаки
+                  </td>
+                </table>
+                <label for="text">Сообщение: </label>
+                <textarea id="text" rows="5"></textarea>
+                <br>
+                <input class="knopka" type="submit" value="Отправить">
+            </form>
+        </div>
+    </body>
+</html>

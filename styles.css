@@ -1,0 +1,63 @@
+.shapka{
+    position:fixed;
+    margin-top: 20px;
+    margin-left: 5% ;
+    background:rgb(181, 242, 247);
+}
+
+.main {
+    width: 90%;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table {
+    margin: auto;
+    width: 400px;
+    background-color: rgb(155, 109, 177);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table tr:nth-child(2),tr:nth-child(4),tr:nth-child(6){
+    color:rgb(11, 4, 75);
+    background-color: rgb(89, 236, 114);
+}
+.table tr:nth-child(3),tr:nth-child(5),tr:nth-child(7){
+    color:rgb(10, 65, 6);
+    background-color: rgb(97, 248, 190);
+}
+
+.h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div{
+    width: 90%;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.soobsheniya label{
+    display: block;
+    font-size: 15;
+}
+
+.knopka:hover{
+    color:rgb(3, 56, 15) ;
+    background: rgb(179, 241, 243);
+}
+.knopka:active{
+    color:rgb(3, 11, 56) ;
+    background: rgb(5, 248, 5);
+}/*это чтобы сменился цвет во время нажатия */
+
+/* это чтоб после нажатия сменилась */
+.knopka:focus{
+    color:rgb(3, 11, 56) ;
+    background: rgb(5, 248, 5);
+} 
+
+.figna{
+    color: rgba(255, 255, 255, 0);
+}
